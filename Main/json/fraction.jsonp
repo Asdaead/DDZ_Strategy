@@ -26,7 +26,7 @@ var fractions = [
         {
             "id": 1,
             "name": "Союз племён",
-            "ideology": "коммунизм",
+            "ideology": 1,
             "religion": "пацифизм",
             "army": 3,
             "wealth": 3,
