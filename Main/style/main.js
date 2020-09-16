@@ -8,7 +8,9 @@ function load(){
         if (attr.name == "Аэдирн и Каэдвен") item.style.fill = '#FFFF00';
         if (attr.name == "Данмерский Доминион") item.style.fill = '#4B0082';
         if (attr.name == "Редания и Темерия") item.style.fill = '#FF0000';
-
+        if (attr.name == "Лига Гномов") item.style.fill = '#C0C0C0';
+        if (attr.name == "Герцогство Готэм") item.style.fill = '#000000';
+        if (attr.name == "Герцогство Метрополис") item.style.fill = '#1E90FF';
       });
 }
 	function MakeClicker() {
@@ -54,7 +56,7 @@ function MakeIdeology(idGet)
   var maker = document.getElementById("fractionIdeology");
   maker.innerHTML = "Идеология: " + ideolog.name;
   maker = document.getElementById("ideologyStat");
-  maker.innerHTML = "Поддержка: " + frac.nationalizm + "Н, " + frac.kommunizm + "К, " + frac.monarchy + "М, " + frac.democracy + "А";
+  maker.innerHTML = "Поддержка: " + frac.nationalizm + "Н, " + frac.kommunizm + "К, " + frac.monarchy + "М, " + frac.democracy + "Д";
 }
 function MakeReligion(idGet)
 {

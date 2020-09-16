@@ -198,5 +198,125 @@ var provinces = [
             "treasury": "нет",
             "casern": "нет",
             "chapel": "нет"
+        },
+        {
+            "id": 20,
+            "name": "Рифт",
+            "owner": 7,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 21,
+            "name": "Вайтран",
+            "owner": 7,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 22,
+            "name": "Истмарк",
+            "owner": 7,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 23,
+            "name": "Хаафингар",
+            "owner": 7,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 24,
+            "name": "Старлинг",
+            "owner": 5,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 25,
+            "name": "Блэкгейт",
+            "owner": 5,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 26,
+            "name": "Готэм",
+            "owner": 5,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 27,
+            "name": "Лес Аркхем",
+            "owner": 5,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 28,
+            "name": "Города-Близнецы",
+            "owner": 6,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 29,
+            "name": "Плато Хаб",
+            "owner": 6,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 30,
+            "name": "Метрополис",
+            "owner": 6,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 31,
+            "name": "Атлантис",
+            "owner": 6,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
         }
     ]

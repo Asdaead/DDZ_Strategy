@@ -2,12 +2,12 @@ var fractions = [
         {
             "id": 0,
             "name": "Орда",
-            "ideology": 0, /*комент*/
+            "ideology": 0, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
             "nationalizm": 5,
             "kommunizm": 2,
             "monarchy": 2,
             "democracy": 1,
-            "religion": 0,
+            "religion": 0, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
             "fanatizm": 5,
             "pacifizm": 2,
             "pangolizm": 2,
@@ -26,12 +26,12 @@ var fractions = [
         {
             "id": 1,
             "name": "Союз племён",
-            "ideology": 1,
+            "ideology": 1, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
             "nationalizm": 2,
             "kommunizm": 5,
             "monarchy": 1,
             "democracy": 2,
-            "religion": 1,
+            "religion": 1, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
             "fanatizm": 2,
             "pacifizm": 5,
             "pangolizm": 2,
@@ -50,12 +50,12 @@ var fractions = [
         {
             "id": 2,
             "name": "Данмерский Доминион",
-            "ideology": 2,
+            "ideology": 2, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
             "nationalizm": 2,
             "kommunizm": 1,
             "monarchy": 5,
             "democracy": 2,
-            "religion": 2,
+            "religion": 2, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
             "fanatizm": 2,
             "pacifizm": 1,
             "pangolizm": 5,
@@ -74,12 +74,12 @@ var fractions = [
         {
             "id": 3,
             "name": "Редания и Темерия",
-            "ideology": 3,
+            "ideology": 3, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
             "nationalizm": 1,
             "kommunizm": 2,
             "monarchy": 2,
             "democracy": 5,
-            "religion": 3,
+            "religion": 3, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
             "fanatizm": 2,
             "pacifizm": 1,
             "pangolizm": 2,
@@ -98,12 +98,12 @@ var fractions = [
         {
             "id": 4,
             "name": "Аэдирн и Каэдвен",
-            "ideology": 0,
+            "ideology": 0, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
             "nationalizm": 5,
             "kommunizm": 2,
             "monarchy": 2,
             "democracy": 1,
-            "religion": 2,
+            "religion": 2, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
             "fanatizm": 2,
             "pacifizm": 1,
             "pangolizm": 5,
@@ -122,15 +122,63 @@ var fractions = [
         {
             "id": 5,
             "name": "Герцогство Готэм",
-            "ideology": 1,
+            "ideology": 1, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
             "nationalizm": 2,
             "kommunizm": 5,
             "monarchy": 1,
             "democracy": 2,
-            "religion": 3,
+            "religion": 3, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
             "fanatizm": 2,
             "pacifizm": 1,
             "pangolizm": 2,
+            "ateizm": 5,
+            "army": 3,
+            "wealth": 3,
+            "military": 0,
+            "politics": 0,
+            "morale": 0,
+            "warchief": 30,
+            "diplomat": 31,
+            "spy": 32,
+            "stewart": 33,
+            "confessor": 34
+        },
+        {
+            "id": 6,
+            "name": "Герцогство Метрополис",
+            "ideology": 2, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 1,
+            "kommunizm": 1,
+            "monarchy": 5,
+            "democracy": 3,
+            "religion": 1, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 2,
+            "pacifizm": 5,
+            "pangolizm": 2,
+            "ateizm": 1,
+            "army": 3,
+            "wealth": 3,
+            "military": 0,
+            "politics": 0,
+            "morale": 0,
+            "warchief": 35,
+            "diplomat": 36,
+            "spy": 37,
+            "stewart": 38,
+            "confessor": 39
+        },
+        {
+            "id": 7,
+            "name": "Лига Гномов",
+            "ideology": 2, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 1,
+            "kommunizm": 1,
+            "monarchy": 5,
+            "democracy": 3,
+            "religion": 3, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 1,
+            "pacifizm": 1,
+            "pangolizm": 3,
             "ateizm": 5,
             "army": 3,
             "wealth": 3,
@@ -142,28 +190,6 @@ var fractions = [
             "spy": 27,
             "stewart": 28,
             "confessor": 29
-        },
-        {
-            "id": 6,
-            "name": "Герцогство Метрополис",
-            "ideology": "монархия",
-            "religion": "миролюбивая",
-            "army": 3,
-            "wealth": 3,
-            "military": 0,
-            "politics": 0,
-            "morale": 0
-        },
-        {
-            "id": 7,
-            "name": "Лига Гномов",
-            "ideology": "монархия",
-            "religion": "наука",
-            "army": 3,
-            "wealth": 3,
-            "military": 0,
-            "politics": 0,
-            "morale": 0
         },
         {
             "id": 8,

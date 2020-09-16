@@ -37,9 +37,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="776.53075"
-     inkscape:cy="438.96248"
+     inkscape:zoom="2.8"
+     inkscape:cx="821.1184"
+     inkscape:cy="289.28989"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -925,13 +925,13 @@
          sodipodi:role="line">Вызима</tspan></text>
     <text
        id="text209"
-       y="101.22834"
-       x="205.46344"
+       y="101.75751"
+       x="204.40512"
        style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="fill:#ffffff;stroke-width:0.264583"
-         y="101.22834"
-         x="205.46344"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';fill:#ffffff;stroke-width:0.264583"
+         y="101.75751"
+         x="204.40512"
          id="tspan207"
          sodipodi:role="line">Третогор</tspan></text>
     <text
@@ -945,5 +945,152 @@
          x="215.82014"
          id="tspan212"
          sodipodi:role="line">Оксенфурт</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="182.09003"
+       y="107.15626"
+       id="text208"><tspan
+         sodipodi:role="line"
+         id="tspan206"
+         x="182.09003"
+         y="107.15626"
+         style="stroke-width:0.264583">Рифт</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="164.32515"
+       y="101.67559"
+       id="text212"><tspan
+         sodipodi:role="line"
+         id="tspan210"
+         x="164.32515"
+         y="101.67559"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:0.264583">Вайтран</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="184.1689"
+       y="96.383934"
+       id="text216"><tspan
+         sodipodi:role="line"
+         id="tspan214"
+         x="184.1689"
+         y="96.383934"
+         style="stroke-width:0.264583">Истмарк</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="162.81323"
+       y="86.178574"
+       id="text220"><tspan
+         sodipodi:role="line"
+         id="tspan218"
+         x="162.81323"
+         y="86.178574"
+         style="stroke-width:0.264583">Хаафингар</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="250.22023"
+       y="92.320679"
+       id="text224"><tspan
+         sodipodi:role="line"
+         id="tspan222"
+         x="250.22023"
+         y="92.320679"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:0.264583">Готэм</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="233.87276"
+       y="100.16368"
+       id="text228"><tspan
+         sodipodi:role="line"
+         id="tspan226"
+         x="233.87276"
+         y="100.16368"
+         style="stroke-width:0.264583">Блэкгейт</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="218.9427"
+       y="92.037201"
+       id="text232"><tspan
+         sodipodi:role="line"
+         id="tspan230"
+         x="218.9427"
+         y="92.037201"
+         style="stroke-width:0.264583">Старлинг</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="238.22685"
+       y="78.902534"
+       id="text236"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         x="238.22685"
+         y="78.902534"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583">Лес</tspan><tspan
+         sodipodi:role="line"
+         x="238.22685"
+         y="83.312248"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan238">Аркхем</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="226.54453"
+       y="74.933784"
+       id="text242"><tspan
+         sodipodi:role="line"
+         id="tspan240"
+         x="226.54453"
+         y="74.933784"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583">Плато</tspan><tspan
+         sodipodi:role="line"
+         x="226.54453"
+         y="79.343498"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan244">Хаб</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583;fill:#f2f2f2;"
+       x="202.78423"
+       y="67.941216"
+       id="text248"><tspan
+         sodipodi:role="line"
+         id="tspan246"
+         x="202.78423"
+         y="67.941216"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:0.264583;fill:#f2f2f2;">Метрополис</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="202.66656"
+       y="83.683929"
+       id="text252"><tspan
+         sodipodi:role="line"
+         id="tspan250"
+         x="202.66656"
+         y="83.683929"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583">Города-</tspan><tspan
+         sodipodi:role="line"
+         x="202.66656"
+         y="88.093643"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan254">Близнецы</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="209.66505"
+       y="53.483627"
+       id="text258"><tspan
+         sodipodi:role="line"
+         x="209.66505"
+         y="53.483627"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan260">Атлантис</tspan></text>
   </g>
 </svg>
