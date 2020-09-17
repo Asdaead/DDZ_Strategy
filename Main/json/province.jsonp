@@ -318,5 +318,85 @@ var provinces = [
             "treasury": "нет",
             "casern": "нет",
             "chapel": "нет"
+        },
+        {
+            "id": 32,
+            "name": "Мёртвые копи",
+            "owner": 8,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 33,
+            "name": "Перевал дьявола",
+            "owner": 8,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 34,
+            "name": "Побережье костей",
+            "owner": 8,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 35,
+            "name": "Некрополис",
+            "owner": 8,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 36,
+            "name": "Тлеющее ущелье",
+            "owner": 9,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 37,
+            "name": "Инферно",
+            "owner": 9,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 38,
+            "name": "Остров Аргус",
+            "owner": 9,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 39,
+            "name": "Раскалённые берега",
+            "owner": 9,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
         }
     ]

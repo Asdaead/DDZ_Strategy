@@ -30,6 +30,7 @@
        id="rect157" />
   </defs>
   <sodipodi:namedview
+     inkscape:lockguides="false"
      units="px"
      id="base"
      pagecolor="#ffffff"
@@ -37,13 +38,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="821.1184"
-     inkscape:cy="289.28989"
-     inkscape:document-units="mm"
+     inkscape:zoom="1.4"
+     inkscape:cx="480.16759"
+     inkscape:cy="362.77818"
+     inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1538"
      inkscape:window-height="877"
      inkscape:window-x="54"
@@ -57,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -137,10 +138,6 @@
     <path
        id="path57"
        d="m 220.21458,157.71554 0.31329,-1.26415 -0.23497,-1.58019 -1.17487,-1.58018 -1.64482,-0.94812 -1.72315,-2.37027 -0.23498,-1.7382 v -1.73822 l 1.09654,-1.50117 0.70494,-1.97523 1.64481,-0.47405 0.70492,-1.58018 1.01823,-1.5802 1.3139,-0.86643 1.3292,-0.72628 1.1077,0.33521 1.16305,0.89388 0.71999,0.72629 0.22155,1.17322 0.16614,1.34084 0.55383,0.55867 1.27384,-0.0559 h 1.05229 l 0.72,0.44695 0.22153,1.00562 -0.11077,1.00563 0.6646,0.89389 1.32922,-0.0559 1.32923,0.0559 1.05229,0.22347 -0.11077,0.94975 -0.66462,1.39669 -0.44307,0.94977 -0.83077,0.83802 -1.27383,0.11173 h -1.43998 l -0.3877,1.22909 0.83077,1.45255 0.88615,0.94978 0.83075,0.838 -0.11077,1.00563 -1.05229,0.55868 -1.44,0.44693 -1.55073,-0.1676 -0.94154,-0.0559 -0.38769,0.89389 -0.71998,0.67041 -1.10769,-1.2291 -1.55075,-0.67041 h -1.55076 z"
-       style="fill:none;stroke:#000000;stroke-width:0.110133px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       id="path61"
-       d="m 206.35107,134.72384 -1.48817,-1.50117 -1.95811,-0.0791 -1.80147,-0.79009"
        style="fill:none;stroke:#000000;stroke-width:0.110133px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccc"
@@ -1092,5 +1089,123 @@
          y="53.483627"
          style="text-align:center;text-anchor:middle;stroke-width:0.264583"
          id="tspan260">Атлантис</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="164.9866"
+       y="60.665176"
+       id="text234"><tspan
+         sodipodi:role="line"
+         id="tspan232"
+         x="164.9866"
+         y="60.665176"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:0.264583">Некрополис</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="201.2139"
+       y="53.653999"
+       id="text238"><tspan
+         sodipodi:role="line"
+         id="tspan236"
+         x="201.2139"
+         y="53.653999"
+         style="text-align:end;text-anchor:end;stroke-width:0.264583">Побережье</tspan><tspan
+         sodipodi:role="line"
+         x="201.2139"
+         y="58.063713"
+         style="text-align:end;text-anchor:end;stroke-width:0.264583"
+         id="tspan241">костей</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="183.87015"
+       y="67.846718"
+       id="text245"><tspan
+         sodipodi:role="line"
+         id="tspan243"
+         x="183.87015"
+         y="67.846718"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583">Мёртвые</tspan><tspan
+         sodipodi:role="line"
+         x="183.87015"
+         y="72.256432"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan247">копи</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="168.2029"
+       y="72.760323"
+       id="text251"><tspan
+         sodipodi:role="line"
+         id="tspan249"
+         x="168.2029"
+         y="72.760323"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583">Перевал</tspan><tspan
+         sodipodi:role="line"
+         x="168.2029"
+         y="77.170036"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan253">дьявола</tspan></text>
+    <text
+       id="text300"
+       y="64.243538"
+       x="162.01945"
+       style="font-size:2.11667px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="64.243538"
+         x="162.01945"
+         id="tspan298"
+         sodipodi:role="line">Тлеющее</tspan><tspan
+         id="tspan302"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="66.889374"
+         x="162.01945"
+         sodipodi:role="line">ущелье</tspan></text>
+    <text
+       id="text306"
+       y="58.464436"
+       x="144.58365"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:0.264583"
+         y="58.464436"
+         x="144.58365"
+         id="tspan304"
+         sodipodi:role="line">Инферно</tspan></text>
+    <text
+       id="text310"
+       y="45.101139"
+       x="148.54008"
+       style="font-size:3.52777px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="45.101139"
+         x="148.54008"
+         id="tspan308"
+         sodipodi:role="line">Остров</tspan><tspan
+         id="tspan312"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="49.510853"
+         x="148.54008"
+         sodipodi:role="line">Аргус</tspan></text>
+    <text
+       id="text316"
+       y="67.279762"
+       x="134.24982"
+       style="font-size:2.82222px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-size:2.82222px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="67.279762"
+         x="134.24982"
+         id="tspan314"
+         sodipodi:role="line">Раскалённые</tspan><tspan
+         id="tspan318"
+         style="font-size:2.82222px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="70.807541"
+         x="134.24982"
+         sodipodi:role="line">берега</tspan></text>
   </g>
 </svg>

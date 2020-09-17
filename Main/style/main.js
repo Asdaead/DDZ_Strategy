@@ -11,6 +11,8 @@ function load(){
         if (attr.name == "Лига Гномов") item.style.fill = '#C0C0C0';
         if (attr.name == "Герцогство Готэм") item.style.fill = '#000000';
         if (attr.name == "Герцогство Метрополис") item.style.fill = '#1E90FF';
+        if (attr.name == "Королевство Кракеш") item.style.fill = '#F4A460';
+        if (attr.name == "Империя Визло") item.style.fill = '#9400D3';
       });
 }
 	function MakeClicker() {

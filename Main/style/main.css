@@ -5,10 +5,9 @@ svg {
 	position: absolute;
 }
 #imap {
-	z-index: 2;
-	text-align: center;
-	margin-left: 9px;
-	margin-top: 13px;
+	z-index: 0;
+	margin-left: 0px;
+	margin-top: 0px;
 }
 svg path {
 	z-index: 1;
@@ -37,7 +36,6 @@ path:hover{
 }
 main {
 	position: relative;
-	width: 70%;
     background: #00FA9A;
     float: left;
 }
