@@ -242,67 +242,145 @@ var fractions = [
         {
             "id": 10,
             "name": "Морская Империя",
-            "ideology": "монархия",
-            "religion": "язычество",
+            "ideology": 2, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 2,
+            "kommunizm": 2,
+            "monarchy": 5,
+            "democracy": 1,
+            "religion": 2, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 2,
+            "pacifizm": 2,
+            "pangolizm": 5,
+            "ateizm": 1,
             "army": 3,
             "wealth": 3,
             "military": 0,
             "politics": 0,
-            "morale": 0
+            "morale": 0,
+            "warchief": 55,
+            "diplomat": 56,
+            "spy": 57,
+            "stewart": 58,
+            "confessor": 59
         },
         {
             "id": 11,
             "name": "Болотная Коммуна",
-            "ideology": "коллективизм",
-            "religion": "миролюбивая",
+            "ideology": 1, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 1,
+            "kommunizm": 5,
+            "monarchy": 2,
+            "democracy": 2,
+            "religion": 1, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 1,
+            "pacifizm": 2,
+            "pangolizm": 5,
+            "ateizm": 2,
             "army": 3,
             "wealth": 3,
             "military": 0,
             "politics": 0,
-            "morale": 0
+            "morale": 0,
+            "warchief": 65,
+            "diplomat": 66,
+            "spy": 67,
+            "stewart": 68,
+            "confessor": 69
         },
         {
             "id": 12,
             "name": "Альдмерская Республика",
-            "ideology": "демократия",
-            "religion": "миролюбивая",
+            "ideology": 3, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 2,
+            "kommunizm": 2,
+            "monarchy": 1,
+            "democracy": 5,
+            "religion": 1, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 1,
+            "pacifizm": 5,
+            "pangolizm": 2,
+            "ateizm": 2,
             "army": 3,
             "wealth": 3,
             "military": 0,
             "politics": 0,
-            "morale": 0
+            "morale": 0,
+            "warchief": 70,
+            "diplomat": 71,
+            "spy": 72,
+            "stewart": 73,
+            "confessor": 74
         },
         {
             "id": 13,
             "name": "Независимая Ваканда",
-            "ideology": "демократия",
-            "religion": "миролюбивая",
+            "ideology": 2, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 2,
+            "kommunizm": 1,
+            "monarchy": 5,
+            "democracy": 2,
+            "religion": 1, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 3,
+            "pacifizm": 5,
+            "pangolizm": 1,
+            "ateizm": 1,
             "army": 3,
             "wealth": 3,
             "military": 0,
             "politics": 0,
-            "morale": 0
+            "morale": 0,
+            "warchief": 75,
+            "diplomat": 76,
+            "spy": 77,
+            "stewart": 78,
+            "confessor": 79
         },
         {
             "id": 14,
             "name": "Братство Маормеров",
-            "ideology": "национализм",
-            "religion": "язычество",
+            "ideology": 0, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 5,
+            "kommunizm": 1,
+            "monarchy": 3,
+            "democracy": 1,
+            "religion": 2, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 2,
+            "pacifizm": 1,
+            "pangolizm": 5,
+            "ateizm": 2,
             "army": 3,
             "wealth": 3,
             "military": 0,
             "politics": 0,
-            "morale": 0
+            "morale": 0,
+            "warchief": 50,
+            "diplomat": 51,
+            "spy": 52,
+            "stewart": 53,
+            "confessor": 54
         },
         {
             "id": 15,
             "name": "Остров Фей",
-            "ideology": "коллективизм",
-            "religion": "язычество",
+            "ideology": 1, //Идеология: 0-национализм, 1-коммунизм, 2-монархия, 3-демократия
+            "nationalizm": 1,
+            "kommunizm": 5,
+            "monarchy": 3,
+            "democracy": 1,
+            "religion": 2, //Религия: 0-фанатизм, 1-пацифизм, 2-язычество, 3-атеизм
+            "fanatizm": 2,
+            "pacifizm": 2,
+            "pangolizm": 5,
+            "ateizm": 1,
             "army": 3,
             "wealth": 3,
             "military": 0,
             "politics": 0,
-            "morale": 0
+            "morale": 0,
+            "warchief": 60,
+            "diplomat": 61,
+            "spy": 62,
+            "stewart": 63,
+            "confessor": 64
         },
     ]

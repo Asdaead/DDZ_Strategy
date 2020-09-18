@@ -13,6 +13,12 @@ function load(){
         if (attr.name == "Герцогство Метрополис") item.style.fill = '#1E90FF';
         if (attr.name == "Королевство Кракеш") item.style.fill = '#F4A460';
         if (attr.name == "Империя Визло") item.style.fill = '#9400D3';
+        if (attr.name == "Братство Маормеров") item.style.fill = '#696969';
+        if (attr.name == "Морская Империя") item.style.fill = '#DC143C';
+        if (attr.name == "Остров Фей") item.style.fill = '#C71585';
+        if (attr.name == "Болотная Коммуна") item.style.fill = '#006400';
+        if (attr.name == "Альдмерская Республика") item.style.fill = '#0000FF';
+        if (attr.name == "Независимая Ваканда") item.style.fill = '#FF7F50';
       });
 }
 	function MakeClicker() {
