@@ -92,7 +92,7 @@ function MakeAgents(idGet)
 function MakeAgent(agent, idLabel, idStat)
 {
   var maker = document.getElementById(idLabel);
-  maker.innerHTML = agent.type + " : " + agent.name;
+  maker.innerHTML = agent.type + ": " + agent.name;
   maker = document.getElementById(idStat);
   maker.innerHTML = "Авторитет " + agent.honor + " , Рвение " + agent.vigor + " , Хитрость " + agent.cunning;
 }
