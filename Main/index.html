@@ -14,6 +14,8 @@
   <script src ="json/agent.jsonp"></script> <!--JSON для агентов-->
   <script src ="json/ideology.jsonp"></script> <!--JSON для идеологий-->
   <script src ="json/religion.jsonp"></script> <!--JSON для религий-->
+  <script src ="json/players.jsonp"></script> <!--JSON для игроков-->
+  <script src ="js/crypto.js"></script> <!--Для шифрования-->
   <script src="style/main.js"></script> <!--Основной код JS-->
 </head>
 <body>
@@ -161,16 +163,74 @@
     <input type="radio" name="inset" value="" id="tab_2"> <!--Вкладка "Агенты"-->
     <label for="tab_2">Агенты</label>
     <div id="txt_1">
-        <p> <button type="button" onclick="MakeClicker()">Кнопка начала</button></p>
-    <p id="fractionName">Название фракции: <p>
-    <p id="fractionIdeology">Идеология: </p>
-    <p id="ideologyStat"></p>
-    <p id="fractionReligion">Религия: </p>
-    <p id="religionStat"></p>
-    <p id="fractionResourses"></p>
+        <input type="text" id="loginText"> <br>
+        <input type="password" id="passwordText">
+        <p> <button type="button" id="enterButton" onclick="MakeClicker()">войти</button></p>
+        <p id="fractionNamePlayer">Название фракции: <p>
+        <p id="fractionIdeologyPlayer">Идеология: </p>
+        <p id="ideologyStatPlayer"></p>
+        <p id="fractionReligionPlayer">Религия: </p>
+        <p id="religionStatPlayer"></p>
+        <p id="fractionResoursesPlayer"></p>
+        <p id="militaryPlayer"></p>
+        <p id="politicsPlayer"></p>
+        <p id="moralePlayer"></p>
     </div>
     <div id="txt_2">
-        <p>Агенты</p>
+        <p id="agentWarPlayer">Военачальник: </p>
+        <a id="warHonor"></a>
+        <a id="warVigor"></a><br>
+        <a id="warCunning"></a>
+        <a id="warFree"></a>
+        <p id="agentDipPlayer">Дипломат: </p>
+        <a id="dipHonor"></a>
+        <a id="dipVigor"></a><br>
+        <a id="dipCunning"></a>
+        <a id="dipFree"></a>
+        <p id="agentSpyPlayer">Тайный советник: </p>
+        <a id="spyHonor"></a>
+        <a id="spyVigor"></a><br>
+        <a id="spyCunning"></a>
+        <a id="spyFree"></a>
+        <p id="agentStePlayer">Управитель: </p>
+        <a id="steHonor"></a>
+        <a id="steVigor"></a><br>
+        <a id="steCunning"></a>
+        <a id="steFree"></a>
+        <p id="agentConfPlayer">Духовный деятель: </p>
+        <a id="confHonor"></a>
+        <a id="confVigor"></a><br>
+        <a id="confCunning"></a>
+        <a id="confFree"></a><br>
+    </div>
+    </div>
+  </div>
+  <div class="right" id="province">
+    <div class="tabs">
+      <input type="radio" name="second" value="" id="tab_3" checked> <!--Вкладка "Фракция"-->
+      <label for="tab_3">Фракция</label>
+      <input type="radio" name="second" value="" id="tab_4" checked> <!--Вкладка "Провинция"-->
+      <label for="tab_4">Провинция</label>
+      <input type="radio" name="second" value="" id="tab_5" checked> <!--Вкладка "Агенты"-->
+      <label for="tab_5">Агенты</label>
+      <div id="txt_3">
+        <p id="fractionName">Название фракции: <p>
+        <p id="fractionIdeology">Идеология: </p>
+        <p id="ideologyStat"></p>
+        <p id="fractionReligion">Религия: </p>
+        <p id="religionStat"></p>
+        <p id="fractionResourses"></p>
+      </div>
+      <div id="txt_4">
+        <p id="provinceName">Название провинции: </p>
+        <p id="provinceCapitol"></p>
+        <p id="provinceDefence">Уровень укрепления: </p>
+        <p>Постройки:</p>
+        <li id="provinceTreasury">Сокровищница: </li>
+        <li id="provinceCasern">Казарма: </li>
+        <li id="provinceChapel">Часовня: </li>
+      </div>
+      <div id="txt_5">
         <p id="agentWar">Военачальник: </p>
         <p id="warStat"></p>
         <p id="agentDip">Дипломат: </p>
@@ -180,18 +240,8 @@
         <p id="agentSte">Управитель: </p>
         <p id="steStat"></p>
         <p id="agentConf"></p>
-        <p id="confStat"></p> 
-    </div>
-    </div>
-  </div>
-  <div class="right" id="province">
-    <p id="provinceName">Название провинции: </p>
-    <p id="provinceCapitol"></p>
-    <p id="provinceDefence">Уровень укрепления: </p>
-    <p>Постройки:</p>
-    <li id="provinceTreasury">Сокровищница: </li>
-    <li id="provinceCasern">Казарма: </li>
-    <li id="provinceChapel">Часовня: </li>
+        <p id="confStat"></p>
+      </div>
   </div>
   <script>
 

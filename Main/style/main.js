@@ -3,11 +3,11 @@ function load(){
       array.forEach(function(item, i, array)
       {
       	var attr = GetFractionName(item.getAttribute('data'));
-        if (attr.name == "Орда") item.style.fill = '#8B0000';
-        if (attr.name == "Союз племён") item.style.fill = '#808000';
-        if (attr.name == "Аэдирн и Каэдвен") item.style.fill = '#FFFF00';
-        if (attr.name == "Данмерский Доминион") item.style.fill = '#4B0082';
-        if (attr.name == "Редания и Темерия") item.style.fill = '#FF0000';
+        if (attr.id == 0) item.style.fill = '#8B0000';
+        if (attr.id == 1) item.style.fill = '#808000';
+        if (attr.id == 4) item.style.fill = '#FFFF00';
+        if (attr.id == 2) item.style.fill = '#4B0082';
+        if (attr.id == 3) item.style.fill = '#FF0000';
         if (attr.name == "Лига Гномов") item.style.fill = '#C0C0C0';
         if (attr.name == "Герцогство Готэм") item.style.fill = '#000000';
         if (attr.name == "Герцогство Метрополис") item.style.fill = '#1E90FF';
@@ -24,21 +24,22 @@ function load(){
 	function MakeClicker() {
     var classname = document.getElementsByClassName("region");
     load();
+    var player = CheckPlayer();
+    if (player != 0) { MakePlayerInfo(player);}
+    else {
+      alert("Неправильный логин");
+    }
     for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('click', myFunction, false);
     }
     };
 var myFunction = function() {
-	var prov = provinces[this.getAttribute("data")];
-      var attr = GetFractionName(this.getAttribute("data"));
-      var maker = document.getElementById("fractionName");
-      maker.innerHTML = "Название фракции: " + attr.name;
-      MakeIdeology(this.getAttribute("data"));
-      MakeReligion(this.getAttribute("data"));
-      maker = document.getElementById("fractionResourses");
-      maker.innerHTML = "Сила армии: " + attr.army + ", Благосостояние " + attr.wealth;
-      MakeAgents(this.getAttribute("data"));
-      maker = document.getElementById("provinceName");
+	    var prov = provinces[this.getAttribute("data")];
+      MakeFraction(prov.owner, "fractionName", "fractionResourses");
+      MakeIdeology(prov.owner, "fractionIdeology", "ideologyStat");
+      MakeReligion(prov.owner, "fractionReligion", "religionStat");
+      MakeAgents(prov.owner);
+      var maker = document.getElementById("provinceName");
       maker.innerHTML = "Название провинции: " + prov.name;
       maker = document.getElementById("provinceDefence");
       maker.innerHTML = "Уровень укрепления: " + prov.defence;
@@ -52,32 +53,93 @@ var myFunction = function() {
       maker = document.getElementById("provinceChapel");
       maker.innerHTML = "Часовня: " + prov.chapel;
       };
+function CheckPlayer()
+{
+  var login = document.getElementById("loginText");
+  var password = document.getElementById("passwordText");
+  var player = 0;
+  for (var i = 0; i < players.length; i++) {
+    if (players[i].login == login.value && Decrypt(players[i].password) == password.value)
+      {
+        login.style.display = "none";
+        password.style.display = "none";
+        var enter = document.getElementById("enterButton");
+        enter.style.display = "none";
+        return players[i];
+      }
+    }
+    return player;
+}
+function MakePlayerInfo(idFraction)
+{
+  var frac = fractions[idFraction.fraction];
+  MakeFraction(frac.id, "fractionNamePlayer", "fractionResoursesPlayer");
+  MakeIdeology(frac.id, "fractionIdeologyPlayer", "ideologyStatPlayer");
+  MakeReligion(frac.id, "fractionReligionPlayer", "religionStatPlayer");
+  alert(idFraction.name + " " + frac.name);
+  var maker = document.getElementById("militaryPlayer");
+  maker.innerHTML="Военный опыт: " + frac.military;
+  maker =document.getElementById("politicsPlayer");
+  maker.innerHTML="Политическая власть: " + frac.politics;
+  maker = document.getElementById("moralePlayer");
+  maker.innerHTML = "Мораль: " + frac.morale;
+  MakeAgentsPlayer(frac);
+}
+function MakeAgentsPlayer(frac)
+{
+  MakeAgentPlayer(agents[frac.warchief], "agentWarPlayer", "warHonor", "warVigor", "warCunning", "warFree");
+  MakeAgentPlayer(agents[frac.diplomat], "agentDipPlayer", "dipHonor", "dipVigor", "dipCunning", "dipFree");
+  MakeAgentPlayer(agents[frac.spy], "agentSpyPlayer", "spyHonor", "spyVigor", "spyCunning", "spyFree");
+  MakeAgentPlayer(agents[frac.stewart], "agentStePlayer", "steHonor", "steVigor", "steCunning", "steFree");
+  MakeAgentPlayer(agents[frac.warchief], "agentConfPlayer", "confHonor", "confVigor", "confCunning", "confFree");
+}
+function MakeAgentPlayer(agent, label, honor, vigor, cunning, exp)
+{
+  var maker = document.getElementById(label);
+  maker.innerHTML = agent.type + ": " + agent.name;
+  maker = document.getElementById(honor);
+  maker.innerHTML = "Авторитет: " + agent.honor + " (" + agent.honorExp + "/" + (5*(agent.honor + 1)) + " опыта)";
+  maker = document.getElementById(vigor);
+  maker.innerHTML = "Рвение: " + agent.vigor + " (" + agent.vigorExp + "/" + (5*(agent.vigor + 1))+ " опыта)";
+  maker = document.getElementById(cunning);
+  maker.innerHTML = "Хитрость: " + agent.cunning + " (" + agent.cunningExp + "/" + (5*(agent.cunning + 1)) + " опыта)";
+  maker = document.getElementById(exp);
+  maker.innerHTML = "Свободный опыт: " + agent.Experience;
+}
 function GetFractionName(idGet)
 {
 	var idFr = provinces[idGet].owner;
 	return fractions[idFr];
-};
-function MakeIdeology(idGet)
+}
+function MakeFraction(idGet, label, resourses)
 {
-  var frac = GetFractionName(idGet);
+  var frac = fractions[idGet];
+  var maker = document.getElementById(label);
+  maker.innerHTML = "Название фракции: " + frac.name;
+  maker = document.getElementById(resourses);
+  maker.innerHTML = "Сила армии: " + frac.army + ", Благосостояние " + frac.wealth;
+}
+function MakeIdeology(idGet, label, stat)
+{
+  var frac = fractions[idGet];
   var ideolog = ideologies[frac.ideology];
-  var maker = document.getElementById("fractionIdeology");
+  var maker = document.getElementById(label);
   maker.innerHTML = "Идеология: " + ideolog.name;
-  maker = document.getElementById("ideologyStat");
+  maker = document.getElementById(stat);
   maker.innerHTML = "Поддержка: " + frac.nationalizm + "Н, " + frac.kommunizm + "К, " + frac.monarchy + "М, " + frac.democracy + "Д";
 }
-function MakeReligion(idGet)
+function MakeReligion(idGet, label, stat)
 {
-  var frac = GetFractionName(idGet);
+  var frac = fractions[idGet];
   var relig = religions[frac.religion];
-  var maker = document.getElementById("fractionReligion");
+  var maker = document.getElementById(label);
   maker.innerHTML = "Религия: " + relig.name;
-  maker = document.getElementById("religionStat");
+  maker = document.getElementById(stat);
   maker.innerHTML = "Поддержка: " + frac.fanatizm + "Ф, " + frac.pacifizm + "П, " + frac.pangolizm + "Я, " + frac.ateizm + "А";
 }
 function MakeAgents(idGet)
 {
-	var frac = GetFractionName(idGet);
+  var frac = fractions[idGet];
 	var agent = agents[frac.warchief];
   MakeAgent(agent, "agentWar", "warStat");
   agent = agents[frac.diplomat];

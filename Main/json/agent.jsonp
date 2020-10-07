@@ -747,13 +747,13 @@ var agents = [
             "id": 62,
             "name": "Элизабет",
             "type": "Тайный советник",
-            "honor": 0,
-            "honorExp": 4,
+            "honor": 1,
+            "honorExp": 0,
             "vigor": 0,
             "vigorExp": 0,
             "cunning": 0,
             "cunningExp": 0,
-            "Experience": 2
+            "Experience": 1
         },
         {
             "id": 63,

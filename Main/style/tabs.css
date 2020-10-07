@@ -22,7 +22,8 @@
     border-bottom: 1px solid #FFFFFF;
     background: #FFFFFF;
 }
-#tab_1:checked ~ #txt_1,
 #tab_2:checked ~ #txt_2,
 #tab_3:checked ~ #txt_3,
-#tab_4:checked ~ #txt_4 { display: block; }
+#tab_4:checked ~ #txt_4,
+#tab_5:checked ~ #txt_5,
+#tab_1:checked ~ #txt_1 { display: block; }
